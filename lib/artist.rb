@@ -14,7 +14,7 @@ class Artist
   def initialize
     self.class.all << self 
     @songs = []
-    binding.pry
+    
   end
 
 
